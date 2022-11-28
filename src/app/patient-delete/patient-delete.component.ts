@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./patient-delete.component.css']
 })
 export class PatientDeleteComponent {
-
+ id=""
+ view=()=>{
+  let data:any={
+    'id':this.id
+  }
+  console.log(data)
+ }
 }
